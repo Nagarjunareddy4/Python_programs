@@ -6,7 +6,10 @@ import urllib.request
 import io
 
 # --- API Settings ---
-API_KEY = "YOUR_API_KEY_HERE"
+API_KEY = "YOUR_API_KEY_HERE" # Replace with your OpenWeatherMap API key
+# Ensure you have a valid API key from OpenWeatherMap
+# https://home.openweathermap.org/api_keys crate a new key
+# https://openweathermap.org/appid#current crate a new key
 BASE_URL = "https://api.openweathermap.org/data/2.5/weather"
 
 # --- Global Variables ---
